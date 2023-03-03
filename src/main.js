@@ -2,4 +2,8 @@ import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import { Dropdown } from 'floating-vue'
+
+createApp(App)
+  .component('VDropdown', Dropdown)
+  .mount('#app')
