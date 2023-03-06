@@ -25,3 +25,6 @@ function editEndpoint(state) {
     @editEndpoint="editEndpoint"
   ></component>
 </template>
+
+<style scoped>
+</style>
